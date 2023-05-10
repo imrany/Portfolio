@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { GlobalContext } from './GlobalContext'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
+import WorkDetail from './pages/WorkDetail'
 
 function App() {
   const [globalContent,setGlobalContent]=useState({
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path='/work/:slug' element={<WorkDetail/>}/>
           <Route path='*' element={<NotFound/>}/>
         </Routes>
       </Router>
