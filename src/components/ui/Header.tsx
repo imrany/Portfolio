@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     const {name}=React.useContext(GlobalContext)
     return (
-        <nav role='navigator' className='flex sm:pl-10 py-4'>
+        <nav role='navigator' className='flex sm:pl-10 py-6 max-sm:none'>
             <ul className='flex justify-around w-[100vw] text-lg text-gray-500'>
                 <li className='font-bold text-xl text-green-500'>
                     <Link to="/">{name}</Link>

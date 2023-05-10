@@ -7,9 +7,12 @@ function HeroSection() {
         window.location.href='mailto:imranmat254@gmail.com'
     }
 
+    const mobileViewUi=document.querySelector('#mobile-view') as HTMLDivElement
+    // mobileViewUi.style.background='../../assets/api.jpg'
+
     return (
         <>
-            <div className='flex justify-around mt-8'>
+            {/* <div className='flex justify-around mt-8'>
                 <div id="call-to-action" className='my-[20vh]'>
                     <p className='text-5xl'>Get started with less</p>
                     <p>I'm a fullstack web developer, </p>
@@ -21,9 +24,9 @@ function HeroSection() {
                 <div id="image-section">
                     <img src={img} alt="hero image" className='w-[50vw] h-[80vh] rounded-lg'/>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="bg-[url('../../assets/api.jpg')]" id='mobile-view'>
+            <div className="bg-[url('./assets/api.jpg')] bg-cover py-10 text-white text-center bg-center bg-no-repeat" id='mobile-view'>
                 <div id="call-to-action" className='my-[20vh]'>
                     <p className='text-5xl'>Get started with less</p>
                     <p>I'm a fullstack web developer, </p>
