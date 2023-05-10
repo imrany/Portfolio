@@ -19,7 +19,7 @@ function Header() {
                     <Link to={path}>{name}</Link>
                 </li>
                 <li>
-                    <Link to="/work" className='hover:text-yellow-500'>Work</Link>
+                    <a href='#work' className='hover:text-yellow-500'>Work</a>
                 </li>
                 <li>
                     <Link to="/contact" className='hover:text-yellow-500'>Get in touch</Link>
