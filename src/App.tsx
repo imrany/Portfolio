@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound'
 function App() {
   const [globalContent,setGlobalContent]=useState({
     name:"Developer",
-    path:"/index"
+    path:"/"
   })
 
   return (

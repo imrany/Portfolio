@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+#mobile-nav,#mobile-menu{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    #desktop-nav{
+        display: none;
+    }
+    #mobile-nav{
+        display: block;
+    }
+}
