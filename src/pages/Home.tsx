@@ -1,15 +1,15 @@
 // @flow strict
-import { useContext } from "react";
-import { Link } from "react-router-dom";
-import { GlobalContext } from "../GlobalContext";
+import Footer from "../components/ui/Footer";
+import Header from "../components/ui/Header";
+import HeroSection from "../components/ui/HeroSection";
 
 function Home() {
-    const {username,path}=useContext(GlobalContext)
     return (
-        <div>
-            <p className='text-base text-center'>{username}</p>
-            <Link to={path}>Front</Link>
-        </div>
+        <>
+            <Header/>
+            <HeroSection/>
+            <Footer/>
+        </>
     );
 };
 
