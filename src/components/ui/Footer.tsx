@@ -1,6 +1,4 @@
 // @flow strict
-import * as React from 'react';
-
 function Footer() {
     let date=new Date()
     const year=date.getFullYear()
