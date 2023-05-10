@@ -5,11 +5,12 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     const {name, path}=React.useContext(GlobalContext)
-    const mobileMenu=document.getElementById("mobile-menu") as HTMLUListElement
     function openMenu(){
+        const mobileMenu=document.getElementById("mobile-menu") as HTMLUListElement
         mobileMenu.style.display='flex'
     }
     function closeMenu(){
+        const mobileMenu=document.getElementById("mobile-menu") as HTMLUListElement
         mobileMenu.style.display="none"
     }
     return (
@@ -22,7 +23,7 @@ function Header() {
                     <a href='#work' className='hover:text-yellow-500'>Work</a>
                 </li>
                 <li>
-                    <Link to="/contact" className='hover:text-yellow-500'>Get in touch</Link>
+                    <a href='tel:+254734720752' target='_blank' rel='noopener noreferrer' className='hover:text-yellow-500'>Get in touch</a>
                 </li>
                 <li>
                     <a href="https://github.com/imrany" className='hover:text-yellow-500' target='_blank' rel="noopener">My Contributions</a>
@@ -47,13 +48,13 @@ function Header() {
                         <Link to={path}>{name}</Link>
                     </li>
                     <li>
-                        <Link to="/work" className='hover:text-yellow-500 text-lg my-6'>Work</Link>
+                        <a href='#work' className='hover:text-yellow-500 text-lg my-6'>Work</a>
                     </li>
                     <li>
-                        <Link to="/contact" className='hover:text-yellow-500 text-lg'>Get in touch</Link>
+                        <a href="tel:+254734720752" target='_blank' rel="noopener noreferrer" className='hover:text-yellow-500 text-lg'>Get in touch</a>
                     </li>
                     <li>
-                        <a href="tel:+254734720752" className='hover:text-yellow-500 text-lg my-6' target='_blank' rel="noopener">My Contributions</a>
+                        <a href="https://github.com/imrany" className='hover:text-yellow-500 text-lg my-6' target='_blank' rel="noopener noreferrer">My Contributions</a>
                     </li>
                 </ul>
             </div>

@@ -4,7 +4,6 @@ import Footer from "../components/ui/Footer";
 import Header from "../components/ui/Header";
 import HeroSection from "../components/ui/HeroSection";
 import Work from "../components/ui/Work";
-import Contact from "../components/ui/Contact";
 
 function Home() {
     useEffect(()=>{
@@ -15,7 +14,6 @@ function Home() {
             <Header/>
             <HeroSection/>
             <Work/>
-            <Contact/>
             <Footer/>
         </>
     );

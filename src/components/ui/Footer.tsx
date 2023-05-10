@@ -1,6 +1,5 @@
 // @flow strict
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 
 function Footer() {
     let date=new Date()
@@ -15,8 +14,8 @@ function Footer() {
                 </div>
 
                 <div className="flex flex-col" id='quick-links'>
-                    <a href="https://github.com/imrany" target='_blank' rel='noopener' className='hover:text-yellow-500'>My Contributions</a>
-                    <Link to='/contact' className='hover:text-yellow-500'>Get in touch</Link>
+                    <a href="https://github.com/imrany" target='_blank' rel='noopener noreferrer' className='hover:text-yellow-500'>My Contributions</a>
+                    <a href='tel:+254734720752' target='_blank' rel='noopener noreferrer' className='hover:text-yellow-500'>Get in touch</a>
                     <a href='#work' className='hover:text-yellow-500'>Work</a>
 
                 </div>
