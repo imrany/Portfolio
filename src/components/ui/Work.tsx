@@ -5,7 +5,7 @@ function Work() {
     
     return (
         <div className='py-12 flex flex-col items-center' id='work'>
-            <p className='text-2xl text-gray-500 text-center font-semibold mb-10'>Work</p>
+            <p className='text-2xl text-gray-500 text-center font-semibold mb-10'>Work <i className='ri-apps-line'></i></p>
             <div className="md:grid md:grid-cols-2 lg:grid-cols-4 max-md:flex max-md:flex-col max-md:items-center">
                 {data&&data.map((i,n)=>(
                     <div className="md:px-[20px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[20vw] max-md:mb-4" key={n}>

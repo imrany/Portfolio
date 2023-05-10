@@ -16,8 +16,11 @@ function Header() {
     return (
         <nav role='navigator' className='flex sm:pl-10 py-6 max-sm:none'>
             <ul className='flex justify-around w-[100vw] text-lg text-gray-500' id='desktop-nav'>
-                <li className='font-bold text-xl text-green-500'>
-                    <Link to={path}>{name}</Link>
+                <li className='font-bold text-xl'>
+                    <Link to={path} className='text-green-500'>
+                        <i className="ri-code-s-slash-fill mr-2"></i>
+                        {name}
+                    </Link>
                 </li>
                 <li>
                     <a href='#work' className='hover:text-yellow-500'>Work</a>
@@ -37,15 +40,28 @@ function Header() {
             </ul>    
 
             <div id='mobile-nav' className='w-[100vw]'>
-                <div className="pl-[80vw]" id='menu-icon'>
-                    <button onClick={openMenu}>
-                        menu
-                    </button>
-                </div>
+               <div className="flex justify-between px-5">
+                    <ul>
+                        <li className='font-bold text-xl'>
+                            <Link to={path} className='text-green-500'>
+                                <i className='ri-code-s-slash-fill mr-2'></i>
+                                {name}
+                            </Link>
+                        </li>
+                    </ul>
+                    <div id='menu-icon'>
+                        <button onClick={openMenu}>
+                            <i className='ri-menu-fill ri-xl'></i>
+                        </button>
+                    </div>
+               </div>
 
                 <ul id='mobile-menu' onClick={closeMenu} className='z-[1000] fixed bg-white right-0 top-0 left-0 bottom-0 flex flex-col h-[100vh] justify-center items-center'>
-                    <li className='font-bold text-xl text-green-500'>
-                        <Link to={path}>{name}</Link>
+                    <li className='font-bold text-xl'>
+                        <Link to={path} className='text-green-500'>
+                            <i className='ri-code-s-slash-fill mr-2'></i>
+                            {name}
+                        </Link>
                     </li>
                     <li>
                         <a href='#work' className='hover:text-yellow-500 text-lg my-6'>Work</a>
