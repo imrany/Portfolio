@@ -1,6 +1,4 @@
 // @flow strict
-import * as React from 'react';
-
 function HeroSection() {
     const email=()=>{
         window.location.href='mailto:imranmat254@gmail.com'

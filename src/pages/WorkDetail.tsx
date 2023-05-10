@@ -1,5 +1,4 @@
 // @flow strict
-import * as React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { data } from '../components/data';
 import { workItem } from '../types/types';

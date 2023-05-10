@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { GlobalContext } from './GlobalContext'
 import Home from './pages/Home'
@@ -6,10 +5,10 @@ import NotFound from './pages/NotFound'
 import WorkDetail from './pages/WorkDetail'
 
 function App() {
-  const [globalContent,setGlobalContent]=useState({
+  const globalContent={
     name:"Developer",
     path:"/"
-  })
+  }
 
   return (
     <div className='bg-gray-100'>
