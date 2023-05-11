@@ -8,19 +8,19 @@ const data=[
         imgUrl:img1,
         title:"Openspace",
         desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`,
-        url:`https://`
+        url:`https://developer-openspace-dev.web.app/`
     },
     {
         imgUrl:img,
         title:"Car rental",
         desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`,
-        url:`https://`
+        url:`https://car-rental-lake.vercel.app/`
     },
     {
         imgUrl:img2,
         title:"Campus blogs",
         desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`,
-        url:`https://`
+        url:`https://campus-blog-lvmx.onrender.com/`
     },
     {
         imgUrl:img3,
