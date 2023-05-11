@@ -31,7 +31,7 @@ function Footer() {
                 <div className="flex flex-col max-sm:mt-8" id='quick-links'>
                     <a href="https://github.com/imrany" target='_blank' rel='noopener noreferrer noreferrer' className='hover:text-yellow-500'>My Contributions</a>
                     <a href='tel:+254734720752' target='_blank' rel='noopener noreferrer noreferrer' className='hover:text-yellow-500'>Get in touch</a>
-                    <a href='#work' className='hover:text-yellow-500'>Work</a>
+                    <a href='#apps' className='hover:text-yellow-500'>Apps</a>
 
                 </div>
             </div>

@@ -2,10 +2,10 @@
 import { Link } from 'react-router-dom';
 import { data } from '../data';
 
-function Work() {
+function Apps() {
     
     return (
-        <div className='py-12 flex flex-col items-center' id='work'>
+        <div className='py-12 flex flex-col items-center' id='apps'>
             <p className='text-2xl text-gray-500 text-center font-semibold mb-10'>Apps <i className='ri-apps-line'></i></p>
             <div className="md:grid md:gap-y-10 md:gap-x-8 md:grid-cols-2 lg:grid-cols-4 max-md:flex max-md:flex-col max-md:items-center">
                 {data&&data.map((i,n)=>(
@@ -24,4 +24,4 @@ function Work() {
     );
 };
 
-export default Work;
+export default Apps;

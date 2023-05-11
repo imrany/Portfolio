@@ -23,7 +23,7 @@ function Header() {
                     </Link>
                 </li>
                 <li>
-                    <a href='#work' className='hover:text-yellow-500'>Work</a>
+                    <a href='#apps' className='hover:text-yellow-500'>Apps</a>
                 </li>
                 <li>
                     <a href='tel:+254734720752' target='_blank' rel='noopener noreferrer' className='hover:text-yellow-500'>Get in touch</a>
@@ -64,7 +64,7 @@ function Header() {
                         </Link>
                     </li>
                     <li>
-                        <a href='#work' className='hover:text-yellow-500 text-lg my-6'>Work</a>
+                        <a href='#apps' className='hover:text-yellow-500 text-lg my-6'>Apps</a>
                     </li>
                     <li>
                         <a href="tel:+254734720752" target='_blank' rel="noopener noreferrer" className='hover:text-yellow-500 text-lg'>Get in touch</a>
