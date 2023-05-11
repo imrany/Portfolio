@@ -1,5 +1,4 @@
 // @flow strict
-import { Link } from 'react-router-dom';
 import { data } from '../data';
 
 function Apps() {
@@ -13,10 +12,10 @@ function Apps() {
                         <a href={i.imgUrl} target="_blank" rel="noopener noreferrer">
                             <img src={i.imgUrl} alt={i.title} className='md:w-[600px] max-sm:w-[80vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[200px] rounded-[20px]'/>
                         </a>
-                       <Link to={`work/${n}`} className="my-6">
+                       <a href={i.url} target="_blank" rel='noopener noreferrer' className="my-6">
                             <p className='text-lg font-semibold mb-4'>{i.title}</p>
                             <p>{i.desc}</p>
-                       </Link>
+                       </a>
                     </div>
                 ))}
             </div>

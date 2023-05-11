@@ -7,22 +7,26 @@ const data=[
     {
         imgUrl:img1,
         title:"Openspace",
-        desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`
+        desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`,
+        url:`https://`
     },
     {
         imgUrl:img,
         title:"Car rental",
-        desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`
+        desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`,
+        url:`https://`
     },
     {
         imgUrl:img2,
         title:"Campus blogs",
-        desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`
+        desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`,
+        url:`https://`
     },
     {
         imgUrl:img3,
         title:"Qr mpesa payment",
-        desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`
+        desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`,
+        url:`https://`
     }
 ]
 
