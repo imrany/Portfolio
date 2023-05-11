@@ -5,13 +5,13 @@ import img3 from '../assets/Anubis-egyptian-god.jpg'
 
 const data=[
     {
-        imgUrl:img,
-        title:"Car rental",
+        imgUrl:img1,
+        title:"Openspace",
         desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`
     },
     {
-        imgUrl:img1,
-        title:"Openspace",
+        imgUrl:img,
+        title:"Car rental",
         desc:`Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world`
     },
     {
