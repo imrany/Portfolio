@@ -1,9 +1,8 @@
-interface workItem{
-    imgUrl:string;
-    title:string;
-    desc:string;
+type GlobalContent={
+    name:string,
+    path:string
 }
 
-export type {
-    workItem
+export type{
+    GlobalContent,
 }

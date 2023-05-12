@@ -12,8 +12,8 @@ function Home() {
     return (
         <>
             <Header/>
-            <HeroSection/>
-            <Work/>
+                <HeroSection/>
+                <Work/>
             <Footer/>
         </>
     );

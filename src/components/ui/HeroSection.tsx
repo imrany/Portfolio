@@ -9,7 +9,7 @@ function HeroSection() {
                 <div id="call-to-action" className='my-[20vh]'>
                     <p className='text-5xl'>Get started with less</p>
                     <p className='my-3'>I'm a fullstack web developer, </p>
-                    <button onClick={email} className='text-base bg-black text-white border-none py-2 px-7 rounded-[50px]'>
+                    <button onClick={email} className='text-base bg-black text-white border-none py-2 px-7 rounded-[50px] hover:bg-white hover:text-black hover:rounded-[3px] transition-[ease-in-out,500ms]'>
                         Hire me
                     </button>
                 </div>
