@@ -10,7 +10,6 @@ function App() {
   }
 
   return (
-    <div className='bg-gray-100'>
     <GlobalContext.Provider value={globalContent}>
       <Router>
         <Routes>
@@ -19,7 +18,6 @@ function App() {
         </Routes>
       </Router>
     </GlobalContext.Provider>
-    </div>
   )
 }
 
