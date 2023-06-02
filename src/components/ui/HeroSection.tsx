@@ -15,7 +15,7 @@ function HeroSection() {
                     </button>
                 </div>
                 <a href={img} target="_blank" rel="noopener noreferrer">
-                    <img src={img} alt="hero image" id="hero-image" className="w-[40vw] h-[28vw] rounded-lg"/>
+                    <img src={img} alt="hero image" id="hero-image" className="w-[38vw] h-[25vw] rounded-lg"/>
                 </a>
             </div>
         </>
