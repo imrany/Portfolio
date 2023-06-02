@@ -4,7 +4,7 @@ function Footer() {
     const year=date.getFullYear()
     return (
         <footer className='bg-black text-white py-5 px-2'>
-            <div className="flex sm:justify-around max-sm:flex-col max-sm:text-center text-lg my-8" id='links'>
+            <div className="flex sm:justify-around max-sm:flex-col max-sm:mx-[20px] text-lg my-8" id='links'>
                 <div id='social-links' className='flex flex-col'>
                     <a className='hover:text-green-500' href='https://wa.me/254734720752' target='_blank' rel='noopener noreferrer'>
                         <i className="ri-whatsapp-fill mr-2"></i>

@@ -14,7 +14,7 @@ function Header() {
         mobileMenu.style.display="none"
     }
     return (
-        <nav role='navigator' className='flex sm:pl-10 py-6 max-sm:none'>
+        <nav role='navigator' className='flex sm:pl-10 sm:py-6 max-sm:py-3 max-sm:none'>
             <ul className='flex justify-around w-[100vw] text-lg text-gray-500' id='desktop-nav'>
                 <li className='font-bold text-xl'>
                     <Link to={path} className='text-green-500'>

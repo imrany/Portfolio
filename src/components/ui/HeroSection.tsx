@@ -5,7 +5,7 @@ function HeroSection() {
     }
     return (
         <>
-            <div className="bg-[url('./assets/api.jpg')] bg-cover py-10 text-white text-center bg-center bg-no-repeat" id="hero-section">
+            <div className="bg-[url('./assets/api.jpg')] bg-cover sm:py-6 max-sm:py-1 text-white text-center bg-center bg-no-repeat" id="hero-section">
                 <div id="call-to-action" className='my-[20vh]'>
                     <p className='text-5xl'>Get started with less</p>
                     <p className='my-3'>I'm a fullstack web developer, </p>
