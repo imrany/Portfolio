@@ -9,6 +9,9 @@ html{
     display: none;
 }
 @media screen and (max-width:600px) {
+    #hero-image{
+        display: none;
+    }
     #desktop-nav{
         display: none;
     }

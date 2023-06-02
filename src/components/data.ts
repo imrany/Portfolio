@@ -1,7 +1,7 @@
 import img from '../assets/car-rental.png'
 import img1 from '../assets/api.jpg'
 import img2 from '../assets/blog.jpg'
-import img3 from '../assets/Anubis-egyptian-god.jpg'
+import img3 from '../assets/moon_man.jpg'
 
 const data=[
     {

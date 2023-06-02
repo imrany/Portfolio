@@ -15,7 +15,7 @@ function Apps() {
                             </a>
                             <a href={i.url} target="_blank" rel='noopener noreferrer' className="my-6">
                                 <p className='text-lg font-semibold mb-4'>{i.title}</p>
-                                <p>{i.desc}</p>
+                                <p className='text-gray-500'>{i.desc}</p>
                             </a>
                         </div>
                     ))}
