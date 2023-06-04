@@ -1,5 +1,5 @@
 // @flow strict
-import img from "../../assets/moon_man.jpg"
+import img from "../../assets/code.jpg"
 function HeroSection() {
     const email=()=>{
         window.location.href='mailto:imranmat254@gmail.com'
