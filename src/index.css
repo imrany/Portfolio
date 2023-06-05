@@ -31,7 +31,7 @@ html{
     background-size: cover;
 }
 @media screen and (max-width:600px) {
-    #hero-image{
+    .hero__slider{
         display: none;
     }
     #desktop-nav{
