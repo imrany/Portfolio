@@ -8,6 +8,28 @@ html{
 #mobile-nav,#mobile-menu{
     display: none;
 }
+.hero__slider {
+    overflow: hidden;
+    width: 38vw;
+}
+#hero-image{
+    background: url("./assets/code.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero-image1{
+    background: url("./assets/code1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero-image2{
+    background: url("./assets/code2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media screen and (max-width:600px) {
     #hero-image{
         display: none;

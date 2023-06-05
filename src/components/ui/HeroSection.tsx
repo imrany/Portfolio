@@ -1,9 +1,19 @@
 // @flow strict
-import img from "../../assets/code.jpg"
+import Slider from "react-slick"
 function HeroSection() {
     const email=()=>{
         window.location.href='mailto:imranmat254@gmail.com'
     }
+    const settings = {
+        fade: true,
+        speed: 2000,
+        autoplaySpeed: 3000,
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: false,
+    };
     return (
         <>
             <div className="flex h-[80vh] max-md:h-[70vh] items-center max-md:justify-center sm:py-6 sm:px-6 border-b max-sm:py-1" id="hero-section">
@@ -14,9 +24,11 @@ function HeroSection() {
                         Hire me
                     </button>
                 </div>
-                <a href={img} target="_blank" rel="noopener noreferrer">
-                    <img src={img} alt="hero image" id="hero-image" className="w-[38vw] h-[25vw] rounded-lg"/>
-                </a>
+                <Slider {...settings} className="hero__slider">
+                    <div id="hero-image" className="h-[25vw] rounded-lg"></div>
+                    <div id="hero-image1" className="h-[25vw] rounded-lg"></div>
+                    <div id="hero-image2" className="h-[25vw] rounded-lg"></div>
+                </Slider>
             </div>
         </>
     );
