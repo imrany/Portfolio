@@ -24,11 +24,13 @@ function HeroSection() {
                         Hire me
                     </button>
                 </div>
-                <Slider {...settings} className="hero__slider">
-                    <div id="hero-image" className="h-[25vw] rounded-lg"></div>
-                    <div id="hero-image1" className="h-[25vw] rounded-lg"></div>
-                    <div id="hero-image2" className="h-[25vw] rounded-lg"></div>
-                </Slider>
+                <div id="slider">
+                    <Slider {...settings} className="hero__slider">
+                        <div id="hero-image" className="h-[25vw] rounded-lg"></div>
+                        <div id="hero-image1" className="h-[25vw] rounded-lg"></div>
+                        <div id="hero-image2" className="h-[25vw] rounded-lg"></div>
+                    </Slider>
+                </div>
             </div>
         </>
     );
