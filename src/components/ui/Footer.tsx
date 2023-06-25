@@ -3,9 +3,8 @@ function Footer() {
     let date=new Date()
     const year=date.getFullYear()
     return (
-        <footer className='bg-black text-white py-5 px-2'>
-            <div className="flex sm:justify-around max-sm:flex-col max-sm:mx-[20px] text-lg my-8" id='links'>
-                <div id='social-links' className='flex flex-col'>
+        <footer className='flex justify-center items-center text-sm py-2 bg-black text-white'>
+                {/* <div id='social-links' className='flex flex-col'>
                     <a className='hover:text-green-500' href='https://wa.me/254734720752' target='_blank' rel='noopener noreferrer'>
                         <i className="ri-whatsapp-fill mr-2"></i>
                         Whatsapp
@@ -26,19 +25,8 @@ function Footer() {
                         <i className="ri-phone-fill mr-2"></i>
                         Phone
                     </a>
-                </div>
-
-                <div className="flex flex-col max-sm:mt-8" id='quick-links'>
-                    <a href="https://github.com/imrany" target='_blank' rel='noopener noreferrer noreferrer' className='hover:text-yellow-500'>My Contributions</a>
-                    <a href='tel:+254734720752' target='_blank' rel='noopener noreferrer noreferrer' className='hover:text-yellow-500'>Get in touch</a>
-                    <a href='#apps' className='hover:text-yellow-500'>Apps</a>
-
-                </div>
-            </div>
-
-            <div className="text-center" id='copy-write'>
-                &copy;{year}
-            </div>
+                </div> */}
+               <span>&copy; Imran matano | <a href="https://github.com/imrany" target="_blank" rel="noopenner noreferrer">Github</a> | {year}</span>
         </footer>
     );
 };

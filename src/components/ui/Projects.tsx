@@ -1,12 +1,12 @@
 // @flow strict
 import { data } from '../data';
 
-function Apps() {
+function Projects() {
     
     return (
-        <div className='py-14 flex flex-col items-center' id='apps'>
+        <div className='py-14 flex flex-col items-center' id='projects'>
+            <p className="text-4xl max-md:text-xl mb-8">Projects</p>
             <div>
-                <p className='lg:text-4xl max-md:text-2xl text-gray-500 ml-2 font-semibold lg:mb-12 max-md:mb-8'>Explore my apps <i className='ri-apps-line'></i></p>
                 <div className="md:grid md:gap-y-12 md:gap-x-8 md:grid-cols-2 lg:grid-cols-3 max-md:flex max-md:flex-col max-md:items-center">
                     {data&&data.map((i,n)=>(
                         <div className="md:px-[20px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[60px] max-md:border-b-2 max-md:pb-4" key={n}>
@@ -25,4 +25,4 @@ function Apps() {
     );
 };
 
-export default Apps;
+export default Projects;

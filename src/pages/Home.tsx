@@ -3,7 +3,8 @@ import { useEffect } from "react";
 import Footer from "../components/ui/Footer";
 import Header from "../components/ui/Header";
 import HeroSection from "../components/ui/HeroSection";
-import Work from "../components/ui/Apps";
+import Projects from "../components/ui/Projects";
+import About from "../components/ui/About";
 
 function Home() {
     useEffect(()=>{
@@ -13,7 +14,8 @@ function Home() {
         <>
             <Header/>
                 <HeroSection/>
-                <Work/>
+                <About/>
+                <Projects/>
             <Footer/>
         </>
     );

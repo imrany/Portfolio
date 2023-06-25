@@ -1,6 +1,6 @@
 // @flow strict
 import { useNavigate } from 'react-router-dom';
-import gdsc from "/gdsc_icon.png";
+import image from "/code.jpg";
 
 function NotFound() {
     const navigate=useNavigate()
@@ -9,7 +9,7 @@ function NotFound() {
     }
     return (
         <div className='flex flex-col justify-center text-center items-center h-[100vh]'>
-            <img src={gdsc} alt='offline image' className='w-[100px]'/>
+            <img src={image} alt='offline image' className='w-[100px]'/>
             <p className='text-2xl'>Ooh, currently this page is not available.</p>
             <button onClick={BackHome} className='mt-9 text-base font-bold bg-black text-white border-none py-2 px-7 rounded-[50px]'>
                 Home

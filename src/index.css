@@ -12,30 +12,27 @@ html{
 }
 .hero__slider {
     overflow: hidden;
-    width: 38vw;
+    width: 100%;
 }
 #hero-image{
-    background: url("./assets/code.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("./assets/code.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #hero-image1{
-    background: url("./assets/code1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("./assets/code1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #hero-image2{
-    background: url("./assets/code2.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("./assets/code2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 @media screen and (max-width:600px) {
-    #slider{
-        display: none;
-    }
     #desktop-nav{
         display: none;
     }
