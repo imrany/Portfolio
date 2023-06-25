@@ -22,15 +22,34 @@ function About() {
                 <p>
                     2022, Learnt Nodejs for Backend development and creating web APIs and I also interacted with different databases, mongoDB and Postgresql. <br/>
                     I joined the Google Developer Students Club. <br />
-                    Went to a Developer Festival (DEVFEST) in Kisumu. <br />
+                    I went to a Developer Festival (DEVFEST) in Kisumu. <br />
                     I also participate in a HACKATHON which my team won and came 1st.
                 </p>
                 <br />
                 <p>
                     2023, I started off with the HACKATHON incubation process and finally deployed our code to production. <br />
-                    Connected with many friends and clients. <br />
-                    Continued learninng more stacks and technologies.
+                    I connected with many friends and clients. <br />
+                    I continued learninng more stacks and technologies. <br />
+                    I started freelancing...
                 </p>
+            </div>
+            
+            <div className="flex text-2xl mt-8">
+                <a href="http://github.com/imrany" title="my github profile" target="_blank" rel="noopener noreferrer">
+                    <i className="ri-github-fill"></i>
+                </a>
+                <a className="ml-2" href="https://www.linkedin.com/in/imranyy/" title="my linkedin profile" target="_blank" rel="noopener noreferrer">
+                    <i className="ri-linkedin-fill"></i>
+                </a>
+                <a className="ml-2" href="http://wa.me/254734720752" title="Text me on whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i className="ri-whatsapp-fill"></i>
+                </a>
+                <a className="ml-2" href="https://www.instagram.com/imrany00/" title="my instagram profile" target="_blank" rel="noopener noreferrer">
+                    <i className="ri-instagram-fill"></i>
+                </a>
+                <a className="ml-2" href="http://twitter.com/matano_imran" title="my twitter profile" target="_blank" rel="noopener noreferrer">
+                    <i className="ri-twitter-fill"></i>
+                </a>
             </div>
         </div>
     );

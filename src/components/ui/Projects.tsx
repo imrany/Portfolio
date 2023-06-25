@@ -15,7 +15,7 @@ function Projects() {
                             </a>
                             <a href={i.url} target="_blank" rel='noopener noreferrer' className="my-6">
                                 <p className='text-lg font-semibold mb-4'>{i.title}</p>
-                                <p className='text-gray-500'>{i.desc}</p>
+                                <p className='font-thin'>{i.desc}</p>
                             </a>
                         </div>
                     ))}
