@@ -32,6 +32,11 @@ function About() {
                     I continued learninng more stacks and technologies. <br />
                     I started freelancing...
                 </p>
+                <br />
+                <p>
+                    I ready for hiring, if you are interested with my services, please mail me at  
+                    <a className="ml-2 text-blue-600" href="mailto:imranmat254@gmail.com" target="_blank" rel="noopener noreferrer">imranmat254@gmail.com</a>
+                </p>
             </div>
             
             <div className="flex text-2xl mt-8">
@@ -49,6 +54,9 @@ function About() {
                 </a>
                 <a className="ml-2" href="http://twitter.com/matano_imran" title="my twitter profile" target="_blank" rel="noopener noreferrer">
                     <i className="ri-twitter-fill"></i>
+                </a>
+                <a className="ml-2" href="mailto:imranmat254@gmail.com" title="my twitter profile" target="_blank" rel="noopener noreferrer">
+                    <i className="ri-mail-fill"></i>
                 </a>
             </div>
         </div>
