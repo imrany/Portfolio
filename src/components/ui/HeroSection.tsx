@@ -16,7 +16,7 @@ function HeroSection() {
             <Slider {...settings} className="hero__slider text-white">
                 <div id="hero-image">
                     <div className="flex flex-col h-[80vh] items-center justify-center ">
-                        <p className='lg:text-5xl text-3xl'>A Full Stack Web developer.</p>
+                        <p className='lg:text-5xl text-3xl'>A Full Stack developer.</p>
                         <p className='my-6 text-lg text-center'>I'm Imran matano, a fullstack web developer, javascript programmer and a freelancer.</p>
                         <a href="/Resume.pdf" target="_blank" rel="noopenner norefferer" className='text-base border-[1px] border-white py-2 px-7'>
                             View Resume
