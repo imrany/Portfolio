@@ -102,9 +102,11 @@ function Projects() {
                     </div>
 
                     <div className="md:px-[20px] max-sm:px-[10px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[60px] max-md:pb-4">
-                        <a className="badge-base__link LI-simple-link" href="https://ke.linkedin.com/in/imranmatano?trk=profile-badge" target="_blank" rel="noopener noreferrer">
-                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="imranyy" data-version="v1"></div>
-                        </a>
+                        <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="imranmatano" data-version="v1">
+                            <a className="badge-base__link LI-simple-link" href="https://ke.linkedin.com/in/imranmatano?trk=profile-badge" target="_blank" rel="noopener noreferrer">
+                                imran matano linkedIn
+                            </a>
+                        </div>
                     </div>
                 </Slider>
             </div>
