@@ -1,8 +1,18 @@
 // @flow strict
+import Slider from "react-slick"
 import { data } from '../data';
 
 function Projects() {
-    
+    const settings = {
+        fade: true,
+        speed: 2000,
+        autoplaySpeed: 6000,
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: true,
+    };
     return (
         <div className='py-14 flex flex-col items-center' id='projects'>
             <p className="text-4xl max-md:text-xl mb-8">Projects</p>
