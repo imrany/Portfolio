@@ -1,8 +1,10 @@
 // @flow strict
 import Slider from "react-slick"
-import img1 from '../../assets/api.jpg'
-import img2 from '../../assets/blog.jpg'
-import img3 from '../../assets/moon_man.jpg'
+import blog from '../../assets/blog.jpg'
+import img1 from '../../assets/image1.jpg'
+import img2 from '../../assets/image2.jpg'
+import img3 from '../../assets/image3.jpg'
+import img4 from '../../assets/image4.jpg'
 
 function Projects() {
     const settings = {
@@ -45,17 +47,21 @@ function Projects() {
                         </a>
                         <a href="https://developer-openspace-dev.web.app/" target="_blank" rel='noopener noreferrer' className="my-6">
                             <p className='text-lg font-semibold mb-4'>Openspace</p>
-                            <p className='font-thin'>Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world</p>
+                            <p className='font-thin'>
+                                Openspace was platform that we developed to share software.
+                            </p>
                         </a>
                     </div>
 
                     <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[60px] max-md:pb-4">
-                        <a href={img1} target="_blank" rel="noopener noreferrer">
-                            <img src={img2} alt="Openspace" className='md:w-[600px] max-sm:w-[80vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
+                        <a href={blog} target="_blank" rel="noopener noreferrer">
+                            <img src={blog} alt="Campus blogs" className='md:w-[600px] max-sm:w-[80vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
                         </a>
-                        <a href="https://developer-openspace-dev.web.app/" target="_blank" rel='noopener noreferrer' className="my-6">
+                        <a href="https://campus-blog-lvmx.onrender.com/" target="_blank" rel='noopener noreferrer' className="my-6">
                             <p className='text-lg font-semibold mb-4'>Campus blogs</p>
-                            <p className='font-thin'>Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world</p>
+                            <p className='font-thin'>
+                                Get popular campus/university news and blogs with easy, we post about universities in Kenya and around the world
+                            </p>
                         </a>
                     </div>
 

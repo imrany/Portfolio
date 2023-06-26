@@ -18,7 +18,7 @@ function HeroSection() {
                     <div className="flex flex-col h-[80vh] items-center justify-center ">
                         <p className='lg:text-5xl text-3xl'>A Full Stack developer.</p>
                         <p className='my-6 text-lg text-center'>I'm Imran matano, a fullstack web developer, javascript programmer and a freelancer.</p>
-                        <a href="/Resume.pdf" target="_blank" rel="noopenner norefferer" className='text-base border-[1px] border-white py-2 px-7'>
+                        <a href="/Resume.pdf" target="_blank" rel="noopenner norefferer" className='text-base border-[1px] border-white py-2 px-7 hover:bg-white hover:text-black'>
                             View Resume
                         </a>
                     </div>
@@ -27,7 +27,7 @@ function HeroSection() {
                     <div className="flex flex-col h-[80vh] items-center justify-center ">
                         <p className='lg:text-5xl text-3xl'>A Backend Developer.</p>
                         <p className='my-6 text-lg text-center'>I've been developing server-side applications with nodejs and Django.</p>
-                        <a href="/Resume.pdf" target="_blank" rel="noopenner norefferer" className='text-base border-[1px] border-white py-2 px-7'>
+                        <a href="/Resume.pdf" target="_blank" rel="noopenner norefferer" className='text-base border-[1px] border-white py-2 px-7 hover:bg-white hover:text-black'>
                             View Resume
                         </a>
                     </div>
@@ -36,7 +36,7 @@ function HeroSection() {
                     <div className="flex flex-col h-[80vh] items-center justify-center ">
                         <p className='lg:text-5xl text-3xl'>A Frontend Developer.</p>
                         <p className='my-6 text-lg text-center'>I've been developing websites using reactjs, svelket and HTML, CSS and Vanillajs.</p>
-                        <a href="/Resume.pdf" target="_blank" rel="noopenner norefferer" className='text-base border-[1px] border-white py-2 px-7'>
+                        <a href="/Resume.pdf" target="_blank" rel="noopenner norefferer" className='text-base border-[1px] border-white py-2 px-7 hover:bg-white hover:text-black'>
                             View Resume
                         </a>
                     </div>
