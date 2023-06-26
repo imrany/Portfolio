@@ -43,7 +43,7 @@ function About() {
                 <a href="http://github.com/imrany" title="my github profile" target="_blank" rel="noopener noreferrer">
                     <i className="ri-github-fill"></i>
                 </a>
-                <a className="ml-2" href="https://www.linkedin.com/in/imranyy/" title="my linkedin profile" target="_blank" rel="noopener noreferrer">
+                <a className="ml-2" href="https://www.linkedin.com/in/imranmatano/" title="my linkedin profile" target="_blank" rel="noopener noreferrer">
                     <i className="ri-linkedin-fill"></i>
                 </a>
                 <a className="ml-2" href="http://wa.me/254734720752" title="Text me on whatsapp" target="_blank" rel="noopener noreferrer">

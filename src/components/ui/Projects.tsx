@@ -100,6 +100,9 @@ function Projects() {
                             </p>
                         </a>
                     </div>
+                    <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="imranyy" data-version="v1">
+                        <a className="badge-base__link LI-simple-link" href="https://ke.linkedin.com/in/imranmatano?trk=profile-badge" target="_blank" rel="noopener noreferrer">Imran matano</a>
+                    </div>
                 </Slider>
             </div>
         </div>
