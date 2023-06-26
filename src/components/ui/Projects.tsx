@@ -83,7 +83,7 @@ function Projects() {
                             <p className='text-lg font-semibold mb-4'>Open Email</p>
                             <p className='font-thin'>
                                 Open email is an API that sends emails to subscribed users.
-                                View API documentation <a href="http://github.com/imrany/open-email" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>
+                                View API documentation <a href="http://github.com/imrany/open-email" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>.
                             </p>
                         </a>
                     </div>
@@ -96,7 +96,7 @@ function Projects() {
                             <p className='text-lg font-semibold mb-4'>Command line game</p>
                             <p className='font-thin'>
                                 Created a command line game as a personal project but check the source code
-                                <a href="http://github.com/imrany/cli-game" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">here</a>
+                                <a href="http://github.com/imrany/cli-game" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline ml-2">here</a>.
                             </p>
                         </a>
                     </div>
