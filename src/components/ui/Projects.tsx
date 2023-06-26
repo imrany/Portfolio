@@ -4,7 +4,6 @@ import blog from '../../assets/blog.jpg'
 import img1 from '../../assets/image1.jpg'
 import cmd from '../../assets/image2.jpg'
 import email from '../../assets/email.jpg'
-import img3 from '../../assets/image3.jpg'
 import chatbot from '../../assets/chatbot.jpg'
 
 function Projects() {
