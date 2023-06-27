@@ -8,7 +8,7 @@ function About() {
             <div className="text-base font-thin lg:w-[70vw] max-md:px-10 max-sm:px-10">
                 <br/>
                 <p>
-                    I started my web development journey back in 2019, when I started on the basics of HTML, CSS and little javascript which I learnt on <a className="text-blue-600" href="http://w3school.com" target="_blank" rel="noopener noreferrer">W3School</a>.
+                    I started my web development journey back in 2019, when I started on the basics of HTML, CSS and little javascript which I learnt on <a className="text-blue-600" href="http://w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a>.
                     I also took a 6 weeks android application development at Zalego institute in Nairobi during the December period.
                 </p><br/>
                 <p>
@@ -16,7 +16,7 @@ function About() {
                 </p>
                 <br />
                 <p>
-                    2021, I decided to learn a javascript frontend framework, I went with <a className="text-blue-600" href="http://react.org" target="_blank" rel="noopener noreferrer">Reactjs</a>, It's popular, has many awesome libraries and marketable.
+                    2021, I decided to learn a javascript frontend framework, I went with <a className="text-blue-600" href="http://react.dev" target="_blank" rel="noopener noreferrer">Reactjs</a>, It's popular, has many awesome libraries and marketable.
                 </p>
                 <br />
                 <p>
