@@ -8,7 +8,7 @@ function About() {
             <div className="text-base font-thin lg:w-[70vw] max-md:px-10 max-sm:px-10">
                 <br/>
                 <p>
-                    I started my web development journey back in 2019, when I started on the basics of HTML, CSS and little javascript which I learnt on <a className="text-blue-600" href="http://w3schools.com" target="_blank" rel="noopener noreferrer">W3School</a>.
+                    I started my web development journey back in 2019, when I started on the basics of HTML, CSS and little javascript which I learnt on <a className="text-blue-600" href="http://w3schools.com" target="_blank" rel="noopener noreferrer">w3schools</a>.
                     I also took a 6 weeks android application development at Zalego institute in Nairobi during the December period.
                 </p><br/>
                 <p>
@@ -27,14 +27,14 @@ function About() {
                 </p>
                 <br />
                 <p>
-                    2023, I started off with the HACKATHON incubation process and finally deployed our code to production. <br />
+                    2023, I kicked off with the HACKATHON incubation process and finally deployed our code to production. <br />
                     I connected with many friends and clients. <br />
                     I continued learninng more stacks and technologies. <br />
                     I started freelancing...
                 </p>
                 <br />
                 <p>
-                    I ready for hiring, if you are interested with my services, please mail me at  
+                    I'm ready to be hired, if you are interested with my services, please mail me at  
                     <a className="ml-2 text-blue-600" href="mailto:imranmat254@gmail.com" target="_blank" rel="noopener noreferrer">imranmat254@gmail.com</a>
                 </p>
             </div>
