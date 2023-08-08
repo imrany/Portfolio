@@ -6,6 +6,7 @@ import HeroSection from "../components/ui/HeroSection";
 import Projects from "../components/ui/Projects";
 import About from "../components/ui/About";
 import Skills from "../components/ui/Skills";
+import Services from "../components/ui/Service";
 
 function Home() {
     useEffect(()=>{
@@ -15,6 +16,7 @@ function Home() {
         <>
             <Header/>
                 <HeroSection/>
+                <Services/>
                 <About/>
                 <Skills/>
                 <Projects/>

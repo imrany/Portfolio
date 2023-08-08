@@ -5,7 +5,7 @@ import NotFound from './pages/NotFound'
 
 function App() {
   const globalContent={
-    name:"Imran matano.",
+    name:"Kreative",
     path:"/"
   }
 

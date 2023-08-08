@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html{
     scroll-behavior: smooth;
-    font-family: 'Rubik';
 }
 #mobile-nav,#mobile-menu{
     display: none;
@@ -15,13 +13,13 @@ html{
     width: 100%;
 }
 #hero-image{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./assets/image5.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./assets/website1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #hero-image1{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./assets/image2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./assets/website2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
