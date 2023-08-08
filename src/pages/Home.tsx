@@ -18,8 +18,8 @@ function Home() {
                 <HeroSection/>
                 <Services/>
                 <About/>
-                <Skills/>
                 <Projects/>
+                <Skills/>
             <Footer/>
         </>
     );
