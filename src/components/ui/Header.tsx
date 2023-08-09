@@ -43,8 +43,8 @@ function Header() {
                <div className="flex justify-between px-5">
                     <ul>
                         <li className='font-bold text-xl'>
-                            <Link to={path} className='text-black'>
-                                {name}
+                            <Link to={path} className='text-blue-600'>
+                                {name}.
                             </Link>
                         </li>
                     </ul>
