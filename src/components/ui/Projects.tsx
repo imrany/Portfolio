@@ -36,13 +36,13 @@ function Projects() {
         ],
     };
     return (
-        <div className='py-14 px-[10vw]' id='projects'>
+        <div className='pt-10 px-[10vw]' id='projects'>
             <p className="mb-8 text-center text-4xl max-md:text-xl font-semibold text-gray-700">Our Work</p>
             <div>
                 <Slider {...settings} className="hero__slider">
-                    <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[60px] max-md:pb-4">
+                    <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[100vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[10px] max-md:pb-4">
                         <a href={img1} target="_blank" rel="noopener noreferrer">
-                            <img src={img1} alt="Campus blogs" className='md:w-[600px] max-sm:w-[80vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
+                            <img src={img1} alt="Campus blogs" className='md:w-[600px] max-sm:w-[100vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
                         </a>
                         <div className="my-6">
                             <p className='text-lg font-semibold mb-4'>Design and Develop website</p>
@@ -52,9 +52,9 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[60px] max-md:pb-4">
+                    <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[100vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[10px] max-md:pb-4">
                         <a href={blog} target="_blank" rel="noopener noreferrer">
-                            <img src={blog} alt="Campus blogs" className='md:w-[600px] max-sm:w-[80vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
+                            <img src={blog} alt="Campus blogs" className='md:w-[600px] max-sm:w-[100vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
                         </a>
                         <div className="my-6">
                             <p className='text-lg font-semibold mb-4'>Blogging website</p>
@@ -64,9 +64,9 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[60px] max-md:pb-4">
+                    <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[100vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[10px] max-md:pb-4">
                         <a href={chatbot} target="_blank" rel="noopener noreferrer">
-                            <img src={chatbot} alt="Assistance" className='md:w-[600px] max-sm:w-[80vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
+                            <img src={chatbot} alt="Assistance" className='md:w-[600px] max-sm:w-[100vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
                         </a>
                         <div className="my-6">
                             <p className='text-lg font-semibold mb-4'>Chatbots</p>
@@ -74,9 +74,9 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[60px] max-md:pb-4">
+                    <div className="max-sm:px-[10px] md:px-[20px] max-sm:w-[100vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[10px] max-md:pb-4">
                         <a href={email} target="_blank" rel="noopener noreferrer">
-                            <img src={email} alt="Open email" className='md:w-[600px] max-sm:w-[80vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
+                            <img src={email} alt="Open email" className='md:w-[600px] max-sm:w-[100vw] max-sm:h-[50vw] max-md:w-[60vw] max-md:h-[45vw] md:h-[170px] rounded-t-[10px]'/>
                         </a>
                         <a href="http://github.com/imrany/open-email" target="_blank" rel='noopener noreferrer' className="my-6">
                             <p className='text-lg font-semibold mb-4'>APIs</p>
@@ -86,7 +86,7 @@ function Projects() {
                         </a>
                     </div>
 
-                    <div className="md:px-[20px] max-sm:px-[10px] max-sm:w-[80vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[60px] max-md:pb-4">
+                    <div className="md:px-[20px] max-sm:px-[10px] max-sm:w-[100vw] max-md:w-[60vw] md:w-[40vw] lg:w-[22vw] max-md:mb-[10px] max-md:pb-4">
                         <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="imranmatano" data-version="v1">
                             <a className="badge-base__link LI-simple-link" href="https://ke.linkedin.com/in/imranmatano?trk=profile-badge" target="_blank" rel="noopener noreferrer">
                                 imran matano linkedIn

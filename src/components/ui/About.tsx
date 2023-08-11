@@ -4,7 +4,7 @@
 function About() {
     return (
         <div className="flex flex-col items-center mb-10 mt-5" id="about">
-            <div className="text-lg lg:w-[70vw] max-md:px-10 max-sm:px-10">
+            <div className="text-lg lg:w-[70vw] max-md:px-10">
                 <br/>
                 <p>
                     With our experienced designer and developer, we've delivered and maintained great websites and earn trust from our clients and business partners.  
