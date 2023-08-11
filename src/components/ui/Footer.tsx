@@ -4,7 +4,7 @@ function Footer() {
     const year=date.getFullYear()
     return (
         <footer className='flex justify-center items-center text-sm py-2 lg:mt-20 bg-black text-white'>
-            <span>Copywrite &copy; {year} | All rights reserved</span>
+            <span>Copyright &copy; {year}. All rights reserved</span>
         </footer>
     );
 };
